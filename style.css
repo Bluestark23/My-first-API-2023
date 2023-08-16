@@ -1,0 +1,70 @@
+body{/*color y tipo de letra de html*/ 
+    background-color:  #ff8000;
+    font-family: Arial;
+}
+
+#Header_1{
+    margin: 20px auto;
+    width:500px;
+    position:relative;
+    left: 120px;
+    top: 20px;
+
+}
+#Pokedex{/*Boton*/
+    margin:10px auto;
+    width: 100px;/*ancho*/ 
+    position:relative;
+    left: 0px;
+    top:30px;
+}
+
+#main-container{/*asigno al id main-container*/ 
+    margin: 90px auto;
+    width: 600px;
+}
+
+
+table{/*Propiedades de las tablas*/ 
+ background-color: white;
+ text-align: left;/*aliniado a la izquierda*/ 
+ border-collapse: collapse;
+ width: 100%;/*espacio para alinear*/ 
+}
+
+th, td{/*propiedades de las propiedas de la tabla*/ 
+    /*border: solid 1px black;*/ 
+    padding: 20 px;
+}
+caption{
+    background-color:#238d76;
+    color:white
+}
+
+thead{/*Encabezado de la tabla*/
+    background-color:#238d76;
+    border-bottom: solid 5px #0f362d;/*es el espacio que hay entre celdas*/
+    color: white;
+}
+tr:nth-child(even){/*se llama a los hijos de las filas par, even es para omitir el encabezado*/
+    background-color: #ddd;
+}
+
+tr:hover td{/*es para iluminar los td que estan dentro de los tr */
+    background-color: #246355;
+    color:white
+}
+
+
+@media (max-width: 768px) {
+    .table {
+        padding: 10px;
+      }
+}      
+@media (min-width: 768px) {
+        /* Estilos para pantallas más grandes que 768px */
+    .table{
+        padding: 10px;
+
+    }    
+}     

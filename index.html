@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>My first API 2023</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la WEB">
+    <meta name="description" content="Descripción de la WEB">    
+    <link href="style.css" rel="stylesheet">  
+    <!--linkLa etiqueta se usa para relacionar hojas de estilo o cualquier otro documento vinculado en lugar de incluir archivos javascript.   -->  
+   
+</head>  
+<body>
+    <header id="Header_1">
+        <h1>My First Poke Api</h1>      
+    </header>    
+    <div id="Pokedex">
+      
+        <button id="apiButton">Call PokeApi</button>
+    </div>
+    <div id="main-container" class="table">
+        <table>
+            <caption>
+                Pokedex
+            <thead>
+                <tr>
+                    <th>Id</th><th>Name</th><th>Base Experience</th><th>Height</th>
+                    <th>Default</th><th>Order</th><th>Weight</th><th>Sprites</th><!--'th' significa 'table header', encabezado de tabla --> 
+                </tr>
+            </thead>         
+            <tbody id="data">
+
+            </tbody>
+
+          </table>       
+    </div>
+    <div id="info">
+        <pre id ="apiData"></pre>
+        <p id="base_experience"></p>
+    </div>
+    <script src="script.js"></script>
+    <!--especifica las relaciones entre el documento actual y otros documentos.-->  
+</body>  
+</html> 
